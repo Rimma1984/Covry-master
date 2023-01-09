@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/* Bloc1 */
+.info_contact {
+    height: 72px;
+    overflow: hidden;
+    background-image: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(82, 43, 109, 0.7) 21.25%, rgba(147, 31, 42, 0.7) 59.75%, rgba(212, 20, 90, 0.7) 98.16%);
+    font-size: 15px;
+}
+.wrapper {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.telefon, .carta, .instagram {
+    float: left;
+    width: 33.33%;
+    margin-top: 26px;
+    color: white;
+}
+.carta {
+    text-align: center;
+}
+.instagram {
+    float: right;
+    width: max-content;
+}
+.instagram img {
+    float: left;
+}
+
+.telefon {
+    text-align: left;
+}
+.info_contact a {
+text-decoration: none;
+color: white;
+}
+.info_contact img {
+    vertical-align: middle;
+    margin-right: 12px;
+
+}
+.telefon a {
+    margin-right: 12px;
+}
+/* END Bloc1 */
+/* Header */
+.logotyp, .info_product {
+    width: 50%;
+}
+.logotyp {
+    float: left;
+    color: black;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.logotyp img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.info_product {
+    float: right;
+    margin-top: 40px;
+    padding-left: 235px;
+        
+}
+.info_product a, li {
+    text-decoration: none;
+    color: #737373;
+    float: left;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 25px;
+}
+.header {
+    overflow: hidden;
+    height: 120px;
+}
+/* END Bloc3 */
+.slogon {
+    width: 50%;
+    float: left;
+}
+.zakaz .wrapper {
+    background-image: url("../img/podlojka.png");
+    overflow: hidden;
+    height: 700px;
+}
+.slogon h1 {
+font-size: 50px;
+color: black;
+font-weight: 700;
+margin-top: 220px;
+}
+.buuton {
+background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+border-radius: 7px;
+width: 180px;
+height: 52px;
+margin-top: 30px;
+margin-left: 30px;
+text-align: center;
+}
+.buuton a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 50px;
+}
+/* END Bloc2 */
+/* Bloc3 */
+.eva {
+    background-image: url("../img/fon_mini.png");
+    overflow: hidden;
+    height: 580px;
+    background-repeat: no-repeat;
+}
+.header_1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    
+}
+.header_1 span {
+    background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.material {
+float: left;
+width: calc(33.33% - 60px);
+overflow: hidden;
+margin-left: 60px;
+border-radius: 9px;
+}
+.material:first-of-type {
+    margin-left: 0;
+}
+.material_img {
+    height: 207px;
+    background-size: cover;
+    
+
+}
