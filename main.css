@@ -149,7 +149,8 @@ overflow: hidden;
 margin-left: 60px;
 border-radius: 9px;
 background-color: white;
-box-shadow: inset 0px 0px 3px #767676;
+box-shadow: 0px 0px 40px rgba(184, 0, 95, 0.2);;
+
 
 }
 .material:first-of-type {
@@ -223,6 +224,7 @@ box-shadow: inset 0px 0px 3px #767676;
     overflow: hidden;
     margin-top: 64px;
     margin-left: 44px;
+    margin-bottom: 20px;
 }
 .text p {
     font-size: 18px;
@@ -230,6 +232,18 @@ box-shadow: inset 0px 0px 3px #767676;
     color: #000000;
     text-align: center;
     line-height: 23px;
+}
+.line {
+    width: 130px;
+    height: 2px;
+    background: linear-gradient(94.31deg, #D4145A 0.96%, #3D5BF5 104.83%);
+    margin: 0 auto;
+}
+.name {
+    width: 100%;
+    height: 16px;
+    text-align: center;
+    margin-top: 10px;
 }
 /* END Bloc4 */
 /* Footer */
@@ -266,4 +280,4 @@ box-shadow: inset 0px 0px 3px #767676;
 .col p {
     margin-top: 20px;
 }
-/* END Bloc4 */
+/* END Footer */
