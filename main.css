@@ -232,3 +232,38 @@ box-shadow: inset 0px 0px 3px #767676;
     line-height: 23px;
 }
 /* END Bloc4 */
+/* Footer */
+.footer {
+    margin: 0 auto;
+    height: 330px;
+    overflow: hidden;
+    background-size: cover;
+}
+.wrapper_2 {
+    width: 935px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.col {
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.col span {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+.col a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #737373;
+}
+.col p {
+    margin-top: 20px;
+}
+/* END Bloc4 */
